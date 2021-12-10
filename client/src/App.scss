@@ -1,0 +1,41 @@
+@import '~bootstrap/scss/bootstrap';
+.app {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  // background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+.circle1,
+.circle2 {
+  background: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+  top: 5%;
+  right: 15%;
+}
+.circle2 {
+  bottom: 5%;
+  left: 10%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0rem 2rem;
+  font-weight: 600;
+  opacity: 0.8;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  transition: opacity 0.4s ease-in-out;
+}
