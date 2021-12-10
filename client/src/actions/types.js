@@ -1,0 +1,6 @@
+// ERROR ACTION
+export const ERROR_ACTION = "ERROR_ACTION";
+
+// LOGIN ACTIONS
+export const AUTH_REGISTER = "AUTH_REGISTER";
+export const AUTH_LOGIN = "AUTH_LOGIN";
