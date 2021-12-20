@@ -9,7 +9,7 @@ pipeline {
 
         stage('test') {
             steps {
-                echo 'Testing the application'
+                echo 'Testing the application updated'
             }
         }
 
@@ -20,7 +20,7 @@ pipeline {
                 }
             }
             steps {
-                echo 'Deploying the application'
+                echo 'Deploying the application updated'
             }
         }
     }
